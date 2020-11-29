@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f9f9fb;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        filter: url(#Path_1);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="1920" height="1080"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-0.029" y1="0.449" x2="0.573" y2="0.815" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#647dee"/>
+      <stop offset="1" stop-color="#7f53ac"/>
+    </linearGradient>
+    <filter id="Path_1" x="-15" y="-803" width="1950" height="1750.857" filterUnits="userSpaceOnUse">
+      <feOffset dy="5" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#aca0a0" flood-opacity="0.251"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-2">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 0, 0)">
+      <path id="Path_1-2" data-name="Path 1" class="cls-3" d="M960,0c530.193,0,960,373.171,960,833.5s-998.571,887.357-998.571,887.357S0,1293.829,0,833.5,429.807,0,960,0Z" transform="translate(0 -793)"/>
+    </g>
+  </g>
+</svg>
